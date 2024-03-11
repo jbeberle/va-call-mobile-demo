@@ -1,0 +1,21 @@
+{
+	"extends": "./tsconfig",
+	"compilerOptions": {
+		"isolatedModules": true,
+		"types": [],
+      "lib": [
+        "dom",
+        "es2015.promise"
+      ]
+    },
+	"exclude": [
+		"__tests__",
+		"src/testUtils.tsx",
+		"**/*.test.*",
+		"node_modules",
+		"babel.config.js",
+		"metro.config.js",
+		"jest.config.js",
+		"e2e"
+	]
+}
